@@ -1,0 +1,45 @@
+/* Estilos generales del cuerpo */
+body {
+  background-color: rgb(21, 21, 136);
+  color: white;
+  font-size: 16px;
+}
+
+/* Centro de texto */
+center {
+  text-align: center;
+}
+
+/* Estilos para la sección de descripción */
+#descripcion {
+  margin: 20px; /* Margen externo */
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Estilos para la tabla de información de equipos */
+#infoEquipos {
+  border: 1px solid;
+  margin: 20px 50px 20px 20px; /* Margen externo: superior derecha inferior izquierda */
+  float: right;
+  vertical-align: top;
+}
+
+/* Estilos para las celdas de la tabla */
+#infoEquipos tr td {
+  padding: 8px;
+}
+
+/* Estilos para los enlaces */
+a {
+  color: #4caf50; /* Verde */
+  font-size: 18px; /* Tamaño de fuente más grande */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+/* Estilos para el hover de los enlaces */
+a:hover {
+  color: lightgreen; /* Cambio de color al pasar el mouse sobre el enlace */
+}
