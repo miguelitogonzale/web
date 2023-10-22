@@ -1,4 +1,4 @@
-/* Estilos generales del cuerpo */
+
 body {
   background-color: rgb(21, 21, 136);
   color: white;
@@ -7,21 +7,21 @@ body {
   padding: 0; /* Eliminamos el relleno predeterminado del cuerpo */
 }
 
-/* Centro de texto */
+/* Para centar*/
 center {
   text-align: center;
 }
 
-/* Estilos para la sección de descripción */
+
 #descripcion {
   margin: 20px; /* Margen externo */
   padding: 10px;
   display: inline-block;
   vertical-align: top;
-  max-width: 600px; /* Ancho máximo para mejorar la legibilidad */
+  max-width: 600px; /* Ancho para poder leer mejor */
 }
 
-/* Estilos para la tabla de información de equipos */
+
 #infoEquipos {
   border: 1px solid;
   margin: 20px 20px 20px 50px; /* Ajustamos los márgenes */
@@ -29,34 +29,33 @@ center {
   vertical-align: top;
 }
 
-/* Estilos para las celdas de la tabla */
+
 #infoEquipos tr td {
   padding: 10px; /* Ajustamos el relleno */
   text-align: left; /* Alineamos el texto a la izquierda */
 }
 
-/* Estilos para los enlaces */
 a {
-  color: #4caf50; /* Verde */
-  font-size: 18px; /* Tamaño de fuente más grande */
+  color: green; 
+  font-size: 18px; /* Tamaño de fuente */
   text-decoration: none;
   transition: color 0.3s;
 }
 
-/* Estilos para el hover de los enlaces */
+
 a:hover {
   color: lightgreen; /* Cambio de color al pasar el mouse sobre el enlace */
 }
 
 footer {
   text-align: right;
-   margin-inline-start: 80em;/* Ajustamos los márgenes */
+   margin-inline-start: 80em;
    margin-inline-end: 1em;
    margin-block-start: 35em;
    margin-block-end: 1em;
   
 }
-th, td {
+th, td {                          /*Damos color al th y a td*/
   border:2px solid whitesmoke;
   padding: 8px;
 }
