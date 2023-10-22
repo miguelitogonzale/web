@@ -25,7 +25,7 @@ center {
 #infoEquipos {
   border: 1px solid;
   margin: 20px 20px 20px 50px; /* Ajustamos los márgenes */
-  float: right;
+  float: center;
   vertical-align: top;
 }
 
@@ -50,6 +50,19 @@ a:hover {
 
 footer {
   text-align: right;
-  margin: 15em 1em 1em 0; /* Ajustamos los márgenes */
-  padding: 10px;
+   margin-inline-start: 80em;/* Ajustamos los márgenes */
+   margin-inline-end: 1em;
+   margin-block-start: 35em;
+   margin-block-end: 1em;
+  
+}
+th, td {
+  border:2px solid whitesmoke;
+  padding: 8px;
+}
+th {
+  text-align:left;
+}
+td{
+  text-align:right;
 }
