@@ -43,3 +43,10 @@ a {
 a:hover {
   color: lightgreen; /* Cambio de color al pasar el mouse sobre el enlace */
 }
+footer{
+  text-align: right;
+  margin-inline-start: 90em;
+  margin-inline-end: 1em;
+  margin-block-start: 15em;
+  margin-block-end: 1em;
+}
