@@ -74,11 +74,11 @@ nav ul li:hover {
 }
 
 footer {
-  text-align: right;
+  text-align: center;
    margin-inline-start: 80em;
-   margin-inline-end: 1em;
+   margin-inline-end: -10em;
    margin-block-start: 35em;
-   margin-block-end: 1em;
+   margin-block-end: -10em;
   
 }
 th, td {                          /*Damos color al th y a td*/
